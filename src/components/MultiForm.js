@@ -153,7 +153,7 @@ const MultiForm = () => {
     
   return (
     <div className='flex items-center justify-center h-screen w-screen'>
-        <div className='bg-gray-300 p-5 rounded-lg w-1/2 flex items-center justify-center'>
+        <div className='bg-gray-300 p-5 rounded-lg w-full lg:w-1/2 flex items-center justify-center'>
             <form>
                 {renderStep()}
                 
