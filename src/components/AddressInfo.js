@@ -17,7 +17,7 @@ const AddressInfo = ({ handelChange, data,error }) => {
           id="street-address"
           name="streetAddress"
           value={data.streetAddress}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.streetAddress && <p className="text-red-600">{error.streetAddress}</p>}
@@ -34,7 +34,7 @@ const AddressInfo = ({ handelChange, data,error }) => {
           id="city"
           name="city"
           value={data.city}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.city && <p className="text-red-600">{error.city}</p>}
@@ -75,7 +75,7 @@ const AddressInfo = ({ handelChange, data,error }) => {
           id="zip-code"
           name="zipCode"
           value={data.zipCode}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.zipCode && <p className="text-red-600">{error.zipCode}</p>}

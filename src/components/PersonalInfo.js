@@ -16,7 +16,7 @@ const PersonalInfo = ({ handelChange, data,error }) => {
           id="full-name"
           name="fullName"
           value={data.fullName}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.fullName && <p className="text-red-600">{error.fullName}</p>}
@@ -33,7 +33,7 @@ const PersonalInfo = ({ handelChange, data,error }) => {
           id="email"
           name='email'
           value={data.email}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.email && <p className="text-red-600">{error.email}</p>}
@@ -51,7 +51,7 @@ const PersonalInfo = ({ handelChange, data,error }) => {
           id="dob"
           name="dob"
           value={data.dob}
-          className="block w-full p-2 text-center text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+          className="block w-full p-2  text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
           onChange={handelChange}
         />
         {error.dob && <p className="text-red-600">{error.dob}</p>}

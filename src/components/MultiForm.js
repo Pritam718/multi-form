@@ -158,7 +158,7 @@ const MultiForm = () => {
                 {renderStep()}
                 
                 <div className='flex justify-between mb-5'>
-                    {currentStep > 1 && currentStep<3 && <button type="button" onClick={handlePrev} className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow'>Previous</button>}
+                    {currentStep > 1  && currentStep<4 && <button type="button" onClick={handlePrev} className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow'>Previous</button>}
                     {currentStep < 3 && <button type="button" onClick={handleNext} className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow'>Next</button>}
                     {currentStep === 3 && <button type="button" onClick={handleSubmit}className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow'>Submit</button>}
                 </div>
